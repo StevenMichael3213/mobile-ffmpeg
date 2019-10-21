@@ -390,6 +390,25 @@ ulimit -n 2048 1>>${BASEDIR}/build.log 2>&1
     --disable-nvenc \
     --disable-vaapi \
     --disable-vdpau \
+    --disable-gray \
+    --disable-network \
+    --disable-postproc \
+    --disable-pixelutils \
+    --disable-encoders \
+    --disable-decoders \
+    --disable-muxers \
+    --disable-parsers \
+    --disable-bsfs \
+    --disable-protocols \
+    --disable-devices \
+    --disable-demuxers \
+    --enable-protocol=file,concat \
+    --enable-encoder=wavpack,wav,pcm_s16le,pcm_u8,aac,libmp3lame \
+    --enable-decoder=wavpack,wav,pcm_s16le,aac,mp3 \
+    --enable-muxer=wav,pcm_u8,adts,mp3 \
+    --enable-demuxer=wav,pcm_u8,aac,pcm_s16le,mov,mp3,concat \
+    --enable-parser=aac \
+    --enable-libmp3lame \
     ${CONFIGURE_POSTFIX} 1>>${BASEDIR}/build.log 2>&1
 
 if [ $? -ne 0 ]; then
