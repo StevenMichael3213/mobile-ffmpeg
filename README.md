@@ -5,7 +5,7 @@ The release binary [v4.2.2.LTS.cv.1](https://github.com/StevenMichael3213/mobile
 
 ### License
 
-Copyright (c) 2018-2019 MobileFFmpeg
+Copyright (c) 2018-2019 [mobile-ffmpeg](https://developer.android.com/ndk/guides/stable_apis#camera)
 
 Modifications copyright (C) 2019 StevenMichael3213
 
