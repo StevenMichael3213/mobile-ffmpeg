@@ -10,7 +10,7 @@ Copyright (c) 2018-2019 [mobile-ffmpeg](https://github.com/tanersener/mobile-ffm
 Modifications copyright (C) 2019 StevenMichael3213
 
 This project is licensed under the LGPL v3.0. However, if source code is built using optional `--enable-gpl` flag or 
-prebuilt binaries with `-gpl` postfix are used then MobileFFmpeg is subject to the GPL v3.0 license.
+prebuilt binaries with `-gpl` postfix are used then MobileFFmpeg is subject to the [GPL v3.0 license](https://github.com/StevenMichael3213/mobile-ffmpeg/blob/master/LICENSE.GPLv3).
 
 Source code of FFmpeg and external libraries is included in compliance with their individual licenses.
 
