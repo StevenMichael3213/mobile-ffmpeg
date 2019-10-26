@@ -1,11 +1,11 @@
-The project is a fork of [mobile-ffmpeg](https://developer.android.com/ndk/guides/stable_apis#camera). It only supports limited processing of wav/pcm and mp3. If you want full features, please refer to the original project.
+The project is a fork of [mobile-ffmpeg](https://github.com/tanersener/mobile-ffmpeg). It only supports limited processing of wav/pcm and mp3. If you want full features, please refer to the original project.
 
 The release binary [v4.2.2.LTS.cv.1](https://github.com/StevenMichael3213/mobile-ffmpeg/releases/tag/v4.2.2.LTS.cv.1) is built by:
 `./android.sh --lts --enable-lame`
 
 ### License
 
-Copyright (c) 2018-2019 [mobile-ffmpeg](https://developer.android.com/ndk/guides/stable_apis#camera)
+Copyright (c) 2018-2019 [mobile-ffmpeg](https://github.com/tanersener/mobile-ffmpeg)
 
 Modifications copyright (C) 2019 StevenMichael3213
 
